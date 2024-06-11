@@ -4,7 +4,7 @@ from tkinter import messagebox
 from openpyxl import Workbook
 
 
-# Function to register a new student
+# bhim to register a new student
 def register_student():
     def submit_registration():
         student_id = student_id_entry.get()
@@ -47,17 +47,17 @@ def register_student():
     register_window.mainloop()
 
 
-# Function to record fee payment for a student
+# bhim t h
 def record_fee_payment():
     pass
 
 
-# Function to check fee balance for a student
+# bhim to check fee balance for a student
 def check_fee_balance():
     pass
 
 
-# Function to print student ID card for a student
+# bhim to print student ID card for a student
 def print_student_id_card(student_id, name, address, dob):
     # Create a new window for displaying ID card
     id_card_window = Tk()
@@ -79,7 +79,7 @@ def print_student_id_card(student_id, name, address, dob):
 
 
 # Main menu
-def main():
+def main(): 
     root = Tk()
     root.title("School Management System")
 
@@ -89,7 +89,7 @@ def main():
     # Add padding
     root.config(padx=10, pady=10)
 
-    # Create buttons for various functions with grid layout
+    # Create buttons for various bhims with grid layout
     register_button = Button(root, text="Register Student", command=register_student, padx=10, pady=5)
     register_button.grid(row=0, column=0, padx=10, pady=5)
 
